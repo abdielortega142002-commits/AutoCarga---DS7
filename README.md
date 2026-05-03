@@ -18,3 +18,7 @@
 **Cédula**: 8-1025-287
 <br>
 **Profesora**: Ing Irina Fong
+<br>
+<br>
+## Conclusión Técnica
+Este Laboratorio de AutoCarga Automática en PHP me ha parecido muy interesante por el simple hecho que pone en práctica los conceptos de la POO (Programación Orientada a Objetos) adaptado al Lenguaje de Programación de PHP.
