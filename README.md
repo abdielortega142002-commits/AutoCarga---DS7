@@ -48,7 +48,7 @@ Este Laboratorio de AutoCarga Automática en PHP me ha parecido muy interesante 
 2. **Eficiencia de Memoria (Lazy Loading):** PHP solo carga en memoria el archivo `ClienteController.php` en el momento exacto en que se hace el `new ClienteController()`, optimizando el consumo del servidor.
 3. **Estandarización:** Utilizar PSR-4 garantiza que la estructura de carpetas y Namespaces sea universal. Cualquier desarrollador que revise el código sabrá instantáneamente dónde buscar la lógica de negocio sin preguntar.
 
-## 👨‍💻 Datos del Estudiante
+## 👨‍💻 Datos del Estudiante (Footer)
 
 * **👤 Nombre:** Abdiel Ortega
 * **🪪 Cédula:** 8-1025-287
