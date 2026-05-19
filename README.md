@@ -1,5 +1,18 @@
 # **AutoCarga Automática en PHP (Autoload)**
 
+## Guía de Instalación
+Para ejecutar este proyecto de forma local:
+1. Clonar el repositorio.
+2. Abrir la terminal en la raíz del proyecto.
+3. Asegurarse de tener [Composer](https://getcomposer.org/) instalado.
+4. En la raíz del proyecto, ejecutar el comando: para que se genere la carpeta `vendor` y el mapa de clases.
+5. Abrir `index.php` en un servidor local (WampServer).
+
+## Estructura de Archivos
+* `app/Controllers/` -> Contiene las clases (Ej. `ClienteController.php`). Su Namespace es `App\Controllers`.
+* `composer.json` -> Archivo de configuración que mapea el prefijo `App\` hacia la carpeta `app/`.
+* `index.php` -> Punto de entrada del sistema.
+
 ## **Capturas de Pantalla sobre el Código + Ejecución**
 <img width="1147" height="361" alt="image" src="https://github.com/user-attachments/assets/fb04d033-88a2-46e8-9e89-532396b29f71" />
 <br>
@@ -11,6 +24,13 @@
 <br>
 <img width="1147" height="821" alt="image" src="https://github.com/user-attachments/assets/61be93a7-51ca-48db-a553-17a9200fa022" />
 
+
+## Conclusión Técnica
+Este Laboratorio de AutoCarga Automática en PHP me ha parecido muy interesante por el simple hecho que pone en práctica los conceptos de la POO (Programación Orientada a Objetos) adaptado al Lenguaje de Programación de PHP y tambien puedo mencionar las siguientes caracteristicas: 
+1. **Mantenibilidad:** El sistema es mucho más limpio. Al crear nuevos controladores o modelos para clientes o servicios, ya no es necesario llenar el archivo principal con decenas de líneas `require` o `include`.
+2. **Eficiencia de Memoria (Lazy Loading):** PHP solo carga en memoria el archivo `ClienteController.php` en el momento exacto en que se hace el `new ClienteController()`, optimizando el consumo del servidor.
+3. **Estandarización:** Utilizar PSR-4 garantiza que la estructura de carpetas y Namespaces sea universal. Cualquier desarrollador que revise el código sabrá instantáneamente dónde buscar la lógica de negocio sin preguntar.
+
 ## **Datos del Estudiante**
 
 **Nombre**: Abdiel Ortega
@@ -19,6 +39,10 @@
 <br>
 **Profesora**: Ing Irina Fong
 <br>
+**Universidad**: Universidad Tecnologica de Panamá (UTP)
 <br>
-## Conclusión Técnica
-Este Laboratorio de AutoCarga Automática en PHP me ha parecido muy interesante por el simple hecho que pone en práctica los conceptos de la POO (Programación Orientada a Objetos) adaptado al Lenguaje de Programación de PHP.
+**Carrera**: Licenciatura en Desarrollo y Gestión de Software
+<br>
+**Grupo**: 1GS133
+<br>
+<br>
